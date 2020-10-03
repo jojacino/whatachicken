@@ -1,0 +1,54 @@
+
+.menu-main-button-container {
+    width: 100%;
+    text-align: center;
+}
+.menu-main-button {
+    background: white;
+    box-shadow: 0 0 0 1px var(--color-light-gray) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+    color: var(--color-red);
+    font-family: var(--font-main);
+    font-size: .6em;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+}
+    .menu-main-button:hover {
+        filter: invert(.1);
+        transition: all .25s ease;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+    }
+
+    .menu-main-button:active {
+        filter: invert(0);
+        transition: all .1s ease;
+        -webkit-transition: all .1s ease;
+        -moz-transition: all .1s ease;
+    }
+
+@media only screen and (min-width: 300px) {
+}
+
+@media only screen and (min-width: 400px) {
+}
+
+@media only screen and (min-width: 500px) {
+}
+
+@media only screen and (min-width: 700px) {
+    .menu-main-button-container {
+        width: 100%;
+    }
+    .menu-main-button {
+        width: 100%;
+    }
+}

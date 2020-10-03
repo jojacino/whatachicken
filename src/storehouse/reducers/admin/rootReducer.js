@@ -1,0 +1,8 @@
+import { combineReducers } from 'redux'
+
+import websiteReducer from './websiteReducer'
+
+
+export default combineReducers({
+    website: websiteReducer
+})

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\general",
+    "\\components\\surf",
+    "\\components\\surf\\home",
+    "\\editor",
+    "\\editor\\media",
+    "\\editor\\media\\css",
+    "\\storehouse",
+    "\\storehouse\\constants"
+  ],
+  "SelectedNode": "\\editor\\component_slot.js",
+  "PreviewInSolutionExplorer": false
+}

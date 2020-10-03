@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@font-face {
+    font-family: 'Bulletto Killa¬ Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bulletto Killa¬ Regular'), url('./media/fonts/Bulletto Killa.woff') format('woff');
+}
+:root {
+    --font-main: 'Bulletto Killa¬ Regular', sans-serif;
+    --font-alt: 'Montseratt', sans-serif;
+    --font-alt2: Arial, sans-serif;
+    --font-size-large: 74pt;
+    --font-size-med: 44pt;
+    --font-size-small: 28pt;
+    --color-light-gray: #CCC;
+    --color-med-gray: #999;
+    --color-dark-gray: #333;
+    --color-shiney-black: #0F0F0F;
+    --color-flat-white: #F0F0F0;
+    --color-yellow: yellow;
+    --color-red: #d5453b;
+    --color-red2: #c5453b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: text;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+    font-family: var(--font-main);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    cursor: pointer;
+}
+a:hover {
+    filter: brightness(0.85);
+}
+
+input {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    padding: 2px;
+}
+
+::-moz-selection { 
+    color: ghostwhite;
+    background: black;
+    border: none;
+}
+
+::selection {
+    color: ghostwhite;
+    background: black;
+    border: none;
+}
