@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:ital,wght@0,600;0,700;1,600;1,700&display=swap');
 @font-face {
     font-family: 'Bulletto Killa¬ Regular';
     font-style: normal;
@@ -8,10 +8,20 @@
 :root {
     --font-main: 'Bulletto Killa¬ Regular', sans-serif;
     --font-alt: 'Montseratt', sans-serif;
-    --font-alt2: Arial, sans-serif;
-    --font-size-large: 74pt;
-    --font-size-med: 44pt;
-    --font-size-small: 28pt;
+    --font-alt2: 'Source Sans Pro', sans-serif;
+
+    --size-huge: 78px;
+    --size-large: 64px;
+    --size-big: 54px;
+    --size-medbig: 48px;
+    --size-med: 44px;
+    --size-little: 36px;
+    --size-small: 28px;
+    --size-smaller: 22px;
+    --size-tiny: 18px;
+    --size-mini: 14px;
+    --size-micro: 12px;
+
     --color-light-gray: #CCC;
     --color-med-gray: #999;
     --color-dark-gray: #333;
@@ -25,6 +35,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
     user-select: text;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -40,7 +51,12 @@ html {
 
 body {
     font-family: var(--font-main);
+    color: white;
     width: 100%;
+}
+
+#root {
+    font-size: var(--size-med);
 }
 
 a {

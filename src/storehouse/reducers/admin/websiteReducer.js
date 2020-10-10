@@ -1,6 +1,8 @@
 import React from 'react'
 
 import HomePage from '../../../components/pages/home-page/home'
+import AboutPage from '../../../components/pages/about_page/about'
+import MenuPage from '../../../components/pages/menu_page/menu'
 
 const websiteReducer = (state, action) => {
     switch (action.type) {
@@ -21,13 +23,13 @@ const websiteReducer = (state, action) => {
                         name: 'about',
                         position: null,
                         urls: ['/about', '/info'],
-                        content: 'About Page'
+                        content: <AboutPage />
                     },
                     {
                         name: 'menu',
                         position: null,
                         urls: ['/menu', '/food', '/drinks'],
-                        content: 'Menu Page'
+                        content: <MenuPage />
                     },
                     {
                         name: 'social',

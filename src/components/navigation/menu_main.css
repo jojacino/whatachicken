@@ -4,6 +4,7 @@
 }
 
 .menu-main {
+    width: 100%;
     position: relative;
     background-color: var(--color-red);
     position: relative;
@@ -13,12 +14,9 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 25px 0 0 0;
-    border-bottom: groove 4px var(--color-red);
-    box-shadow: 0 -15px 0 0 var(--color-red2) inset;
-    transition: all 500ms ease-in-out;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
+    transition: all 350ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
     z-index: 1;
 }
 .company-logo-container {
@@ -30,67 +28,88 @@
 }
 .company-logo {
     position: relative;
-    padding: 30px 0;
-    margin: auto;
-    width: 50%;
+    margin: 15px auto 15px auto;
+    width: 80%;
+    max-width: 130px;
     filter: hue-rotate(415deg) saturate(65%) brightness(300%);
     transform: rotate(3deg);
     mix-blend-mode: hard-light;
 }
+
 .company-name-container {
-    font-size: 1.8em;
-    color: var(--color-yellow);
-}
-.company-name {
-    font-family: var(--font-main);
-    color: white;
     width: 100%;
-    font-size: var(--font-size-small);
+    color: white;
+}
+.company {
+    font-family: var(--font-main);
+    font-size: var(--size-little);
+    margin: auto;
+}
+.company-name, .company-name-punctuation {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 15px auto 35px auto;
-}
-.company {
-    margin: 0 auto;
-}
-.company-name-punctuation {
-    width: 100%;
-    font-size: 1em;
-    margin: 0 auto;
-    padding: 5px;
+    margin: 10px auto;
 }
 
 .company-description {
     font-family: var(--font-alt);
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 14pt;
+    font-size: var(--size-tiny);
     color: white;
     text-align: center;
 }
 
+@media only screen and (min-width: 200px) {
+
+    .company {
+        font-size: var(--size-med);
+    }
+}
 @media only screen and (min-width: 300px) {
 
+    .company {
+        font-size: var(--size-big);
+    }
 }
+
 @media only screen and (min-width: 400px) {
 
-    .menu-main {
-        padding: 25px 0;
-    }
-    .company-name {
-        font-size: var(--font-size-med);
+    .company {
+        font-size: var(--size-large);
     }
     .company-logo {
-        width: 40%;
+        margin: 25px auto 15px auto;
     }
 }
 @media only screen and (min-width: 500px) {
 
+    .company {
+        font-size: var(--size-huge);
+    }
 }
-
 @media only screen and (min-width: 700px) {
 
+    .company {
+        width: 630px;
+        display: flex;
+    }
+}
+@media only screen and (min-width: 800px) {
+
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 1200px) {
 }

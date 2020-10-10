@@ -41,18 +41,26 @@ class Page extends Component {
                 {/* PAGE FOOTER FOR EVERY PAGE */}
                 <footer className="page-footer">
 
+                    {/* Company Info */}
+                    <div className="footer-company">
+
+                        What a Chicken BBQ Restaurant
+                        <p>706 E Washington St, Petaluma, CA 94952</p>
+                        <a href="tel:7079717549">(707) 971-7549</a>
+
+                    </div>
+
+                    {/* Sugar Coded Info || Web Master */}
                     {this.media(400) ? (() => {
 
                         return (
-                            <>
+                            <div className="sugar-coded">
                                 <p>This Website is powered by</p>
                                 <div className="powered-by"><div>REACT</div>REDUX</div>
 
                                 <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a> <div className="copyright">copyright &copy; 2020, all rights reserved</div>
 
-                                {/** Grid Area **/}
-
-                            </>
+                            </div>
                             )
 
                     })() :
@@ -60,20 +68,33 @@ class Page extends Component {
                         (() => {
 
                             return (
-                                <>
-
+                                <div className="sugar-coded">
                                     <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a> <div className="copyright">copyright &copy; 2020, all rights reserved</div>
-
-                                    {/** Grid Area **/}
 
                                     <p>This Website is powered by</p>
                                     <div className="powered-by"><div>REACT</div>REDUX</div>
 
-                                </>
+                                </div>
                                 )
 
                         })()}
 
+                    {/* Social Links */}
+                    <div className="footer-social">
+
+                        <div className="footer-social-logos">
+                            <a className="footer-social-facebook" href="https://www.facebook.com/pages/What%20A%20Chicken/161197614732924/"></a>
+
+                            <a className="footer-social-yelp" href="https://www.yelp.com/biz/what-a-chicken-petaluma"></a>
+                        </div>
+
+                        <a href="https://www.sonomacounty.com/restaurants/what-chicken">sonomacounty.com</a>
+
+                        <a href="https://www.petaluma360.com/article/news/petalumas-what-a-chicken-gets-crowing-praise/?artslide=2&sba=AAS">Argus Courier.com</a>
+
+
+                    </div>
+                    
                 </footer>
 
             </div>

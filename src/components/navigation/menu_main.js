@@ -65,10 +65,14 @@ class MenuMain extends Component {
                 </div>
                 <div className="company-name-container">
 
-                <h1 className="company-name"><div className="company">What a</div> <div className="company-name-punctuation"> Chicken!!</div></h1>
+                    <header className="company">
+                        <div className="company-name">What a</div>
+                        <div className="company-name-punctuation">Chicken!!</div>
+                    </header>
 
                     <h2 className="company-description">Pollo Asado</h2>
                 </div>
+
 
                 {/* toggle button for dropdown menu  */}
                 <MenuMainToggle

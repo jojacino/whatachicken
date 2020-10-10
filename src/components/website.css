@@ -1,11 +1,10 @@
 .website {
+    background: url(../media/images/seamlessbg0.png);
     opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: auto;
     transition: opacity 500ms ease-in-out;
     -webkit-transition: opacity 500ms ease-in-out;
     -moz-transition: opacity 500ms ease-in-out+

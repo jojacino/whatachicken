@@ -9,12 +9,10 @@ class HomePage extends Component {
     constructor(props) {
         super(props)
 
-        this.state = {
-
-        }
+        this.setPageMenu = this.setPageMenu.bind(this)
     }
-    handleClick(e) {
-
+    setPageMenu() {
+        console.log(this.props)
     }
 
     render() {
@@ -22,7 +20,8 @@ class HomePage extends Component {
         return (
             <div className="home">
 
-                <div className="home-header">
+                {/** Header Section **/}
+                <div className="header">
                     
                     <h1>Family Style BBQ Mexican Resturaunt</h1>
 
@@ -31,38 +30,20 @@ class HomePage extends Component {
 
                 </div>
 
-                <h2>Awards</h2>
-                <p>Since we opened in 2018 we've won a local peoples choice award every year!</p>
+                {/** Invite Section **/}
+                <div className="invite">
 
-                <div className="awards">
+                    <h2>BBQ Chicken & Ribs</h2>
+                    <p>We have BBQ plates with chicken and ribs, a delicious selection of sides including: rice, beans, coleslaw, and salad. We also serve burritos and tacos with your choice of camaron (shrimp), pescado (fish), carne asada (steak), pollo asada (bbq-chicken), and al pastor (bbq-pork).</p>
 
-                    <div
-                        className="award award-2018">
+                    <p>Check out our menu for more!<button onMouseUp={this.setPageMenu}>Menu</button></p>
 
-                        <h2> 2018 </h2>
-                        <p>Best New Resturaunt!</p>
-                        <img className="award-img" src="../../media/images/2018award.png" />
+                </div>
 
-                    </div>
-
-                    <div
-                        className="award award-2019">
-
-                        <h2> 2019 </h2>
-                        <p>Best Take Out Food!</p>
-                        <img className="award-img" src="../../media/images/2019award.png" />
-
-                    </div>
-
-                    <div
-                        className="award award-2020">
-
-                        <h2> 2020 </h2>
-                        <p>Best Cheap Eats!</p>
-                        <img className="award-img" src="../../media/images/2020award.png" />
-
-                    </div>
-
+                {/** Image Section **/}
+                <div className="image-container">
+                    <h1>BBQ Chicken & Ribs</h1>
+                    <div className="image"></div>
                 </div>
 
             </div>
