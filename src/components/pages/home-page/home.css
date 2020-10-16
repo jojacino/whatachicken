@@ -20,7 +20,7 @@ h2 {
     font-size: var(--size-tiny);
     font-weight: bold;
     font-style: italic;
-    margin: 15px 5px;
+    margin: 50px 5px;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
     text-overflow: ellipsis;
     font-weight: 100;
     font-size: var(--size-tiny);
-    margin: 10px;
+    margin: 20px;
     max-width: 1200px;
 }
 
@@ -186,11 +186,12 @@ p {
     border-radius: 25px;
 }
 .menu-sign {
+    display: none;
     border-radius: 15px 15px 0 0;
     width: 70%;
     max-width: 300px;
 }
-.menu-header {
+.menu-section {
     width: 100%;
     font-size: var(--size-small);
 }
@@ -198,7 +199,7 @@ p {
     font-family: var(--font-alt);
     font-size: var(--size-smaller);
 }
-.menu-header h3 {
+.menu-section h3 {
     color: silver;
     font-size: var(--size-smaller);
 }

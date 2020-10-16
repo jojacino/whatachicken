@@ -21,7 +21,7 @@ class MenuPage extends Component {
 
                 <div className="menu">
 
-                    <div className="menu-header">
+                    <div className="menu-section">
                         <h1>GRILLED</h1>
                         <div className="banner-box"></div>
 
@@ -33,7 +33,7 @@ class MenuPage extends Component {
 
                     </div>
 
-                    <div className="menu-header">
+                    <div className="menu-section">
                         <h1>BURRITOS</h1>
                         <h4 className="menu-sub-header">Wraps & Salads</h4>
 
@@ -49,7 +49,7 @@ class MenuPage extends Component {
 
                     </div>
 
-                    <div className="menu-header">
+                    <div className="menu-section">
                         <h1>TACOS</h1>
 
                         <h3 className="menu-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Chicken<h2 className="price">$5.00</h2></h3>
@@ -66,7 +66,7 @@ class MenuPage extends Component {
 
                     </div>
 
-                    <div className="menu-header">
+                    <div className="menu-section">
                         <h1>SIDES</h1>
                         <h2 className="price" style={{ margin: 'auto' }}>$3.00</h2>
 
@@ -89,7 +89,7 @@ class MenuPage extends Component {
                     </div>
 
 
-                    <div className="menu-header">
+                    <div className="menu-section">
                         <h1>DRINKS</h1>
                         <img className="doodle" src="./media/images/doodle.png" />
 

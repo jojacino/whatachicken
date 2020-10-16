@@ -10,6 +10,7 @@
     position: relative;
     top: 0px;
     width: 100%;
+    padding-top: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -33,7 +34,6 @@
     max-width: 130px;
     filter: hue-rotate(415deg) saturate(65%) brightness(300%);
     transform: rotate(3deg);
-    mix-blend-mode: hard-light;
 }
 
 .company-name-container {

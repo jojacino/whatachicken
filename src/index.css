@@ -9,7 +9,6 @@
     --font-main: 'Bulletto Killa¬ Regular', sans-serif;
     --font-alt: 'Montseratt', sans-serif;
     --font-alt2: 'Source Sans Pro', sans-serif;
-
     --size-huge: 78px;
     --size-large: 64px;
     --size-big: 54px;
@@ -21,15 +20,14 @@
     --size-tiny: 18px;
     --size-mini: 14px;
     --size-micro: 12px;
-
     --color-light-gray: #CCC;
     --color-med-gray: #999;
     --color-dark-gray: #333;
     --color-shiney-black: #0F0F0F;
     --color-flat-white: #F0F0F0;
     --color-yellow: yellow;
-    --color-red: #d5453b;
-    --color-red2: #c5453b;
+    --color-red: #a02020;
+    --color-red2: rgba(155,35,35, 1);
 }
 
 * {
