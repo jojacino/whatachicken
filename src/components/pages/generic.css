@@ -12,7 +12,7 @@
     justify-content: flex-start;
     width: 100%;
     margin: auto;
-    padding: 60px 0;
+    padding: 60px auto;
     text-align: center;
 }
 
@@ -50,6 +50,10 @@
     .footer-company p {
         font-size: var(--size-mini);
         font-family: var(--font-alt2);
+        cursor: pointer;
+    }
+    .footer-company p:hover {
+        color: silver;
     }
 .sugar-coded {
     width: 80%;

@@ -9,6 +9,7 @@ class Page extends Component {
     constructor(props) {
         super(props)
 
+        this.googleMaps = this.googleMaps.bind(this)
     }
 
     media(minSize) {
@@ -22,6 +23,11 @@ class Page extends Component {
         }
 
     }
+    googleMaps() {
+
+        window.location.href = "https://www.google.com/maps/dir//" + "706 E Washington Street, Petaluma CA 94952".replace(/ /gm, '+')
+    }
+
     render() {
 
         return (
@@ -31,7 +37,8 @@ class Page extends Component {
                     if (page.name === this.props.className) {
                         return (
                             
-                            <div key={"page:" + index} className="page">
+                            <div
+                                key={"page:" + index} className="page">
                                 {page.content}
                             </div>
                             )
@@ -45,7 +52,7 @@ class Page extends Component {
                     <div className="footer-company">
 
                         What a Chicken BBQ Restaurant
-                        <p>706 E Washington St, Petaluma, CA 94952</p>
+                        <p onClick={this.googleMaps}>706 E Washington St, Petaluma, CA 94952</p>
                         <a href="tel:7079717549">(707) 971-7549</a>
 
                     </div>

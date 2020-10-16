@@ -7,7 +7,7 @@
 }
 :root {
     --font-main: 'Bulletto Killa¬ Regular', sans-serif;
-    --font-alt: 'Montseratt', sans-serif;
+    --font-alt: 'Abril Fatface', sans-serif;
     --font-alt2: 'Source Sans Pro', sans-serif;
     --size-huge: 78px;
     --size-large: 64px;
@@ -26,8 +26,8 @@
     --color-shiney-black: #0F0F0F;
     --color-flat-white: #F0F0F0;
     --color-yellow: yellow;
-    --color-red: #a02020;
-    --color-red2: rgba(155,35,35, 1);
+    --color-red: #8b2020;
+    --color-red2: rgba(129,28,28, 1);
 }
 
 * {

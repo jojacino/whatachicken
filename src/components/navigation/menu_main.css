@@ -4,7 +4,6 @@
 }
 
 .menu-main {
-    width: 100%;
     position: relative;
     background-color: var(--color-red);
     position: relative;
@@ -42,7 +41,7 @@
 }
 .company {
     font-family: var(--font-main);
-    font-size: var(--size-little);
+    font-size: var(--size-med);
     margin: auto;
 }
 .company-name, .company-name-punctuation {
@@ -58,9 +57,10 @@
     font-family: var(--font-alt);
     font-weight: bold;
     text-transform: uppercase;
-    font-size: var(--size-tiny);
+    font-size: var(--size-micro);
     color: white;
     text-align: center;
+    margin: 20px auto 40px auto;
 }
 
 @media only screen and (min-width: 200px) {

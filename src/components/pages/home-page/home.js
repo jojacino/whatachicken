@@ -4,6 +4,8 @@ import './home.css'
 
 import { connect } from 'react-redux'
 
+import { updateReduxWebsite } from '../../../storehouse/actions/admin/administration_actions'
+
 // exported page
 class HomePage extends Component {
     constructor(props) {
@@ -12,7 +14,10 @@ class HomePage extends Component {
         this.setPageMenu = this.setPageMenu.bind(this)
     }
     setPageMenu() {
-        console.log(this.props)
+        
+
+        // set url in adress bar
+        window.location.pathname = '/menu'
     }
 
     render() {
@@ -21,7 +26,7 @@ class HomePage extends Component {
             <div className="home">
 
                 {/** Header Section **/}
-                <div className="header">
+                <div className="home-header">
                     
                     <h1>Family Style BBQ Mexican Resturaunt</h1>
 
@@ -31,19 +36,19 @@ class HomePage extends Component {
                 </div>
 
                 {/** Invite Section **/}
-                <div className="invite">
+                <div className="home-invite">
 
-                    <h2>BBQ Chicken & Ribs</h2>
+                    <h2>Chicken & Ribs</h2>
                     <p>We have BBQ plates with chicken and ribs, a delicious selection of sides including: rice, beans, coleslaw, and salad. We also serve burritos and tacos with your choice of camaron (shrimp), pescado (fish), carne asada (steak), pollo asada (bbq-chicken), and al pastor (bbq-pork).</p>
 
-                    <p>Check out our menu for more!<button onMouseUp={this.setPageMenu}>Menu</button></p>
+                    <p>Check out our menu for more!<button className="menu-aside-button" onMouseUp={this.setPageMenu}>Menu</button></p>
 
                 </div>
 
                 {/** Image Section **/}
-                <div className="image-container">
+                <div className="home-image-container">
                     <h1>BBQ Chicken & Ribs</h1>
-                    <div className="image"></div>
+                    <div className="home-image"></div>
                 </div>
 
             </div>
@@ -55,7 +60,7 @@ const mapStateToProps = state => ({ ...state })
 
 const mapDispatchToProps = dispatch => {
     return {
-
+        updateReduxWebsite: website => dispatch(updateReduxWebsite(website))
     }
 }
 

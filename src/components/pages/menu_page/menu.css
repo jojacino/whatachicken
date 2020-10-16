@@ -1,0 +1,145 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: var(--size-smaller);
+}
+.menu-container {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 25px;
+}
+
+.menu-section {
+    width: 100%;
+    align-self: baseline;
+}
+
+.menu-sub-header {
+    font-family: var(--font-alt);
+    font-size: var(--size-smaller);
+}
+
+.menu-section h1 {
+    font-size: var(--size-small);
+    margin: 30px auto;
+}
+
+.menu-section h2 {
+    font-family: var(--font-alt);
+}
+
+.menu-section h3 {
+    color: silver;
+    font-size: var(--size-smaller);
+}
+
+.menu-section p {
+
+}
+
+.menu-sign {
+    display: none;
+    border-radius: 15px 15px 0 0;
+    width: 70%;
+    max-width: 300px;
+}
+
+.menu-item {
+    font-family: var(--font-main);
+    font-size: var(--size-tiny);
+    margin: 10px auto;
+}
+
+.price {
+    color: white;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%), #444;
+    max-width: 240px;
+}
+
+.banner-box {
+    margin: auto;
+    position: relative;
+    top: -20px;
+    background: url(../../../media/images/banner_grilled.png) no-repeat top;
+    background-size: 100% 100%;
+    height: 100%;
+    min-height: 80px;
+    max-height: 80px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.doodle {
+    width: 100px;
+}
+
+.logo-dark {
+    position: relative;
+    bottom: 0px;
+    width: 80px;
+    margin: auto;
+    padding: 10px;
+    border: solid;
+    border-radius: 25px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-dark-red-chicken {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 200px) {
+
+    .menu-section h1 {
+        font-size: var(--size-little);
+    }
+}
+
+@media only screen and (min-width: 300px) {
+
+    .menu-section h1 {
+        font-size: var(--size-med);
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .price {
+        font-size: var(--size-small);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+
+    .menu {
+        display: grid;
+        grid-template-columns: min-content min-content;
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+
+    .menu {
+        grid-template-columns: min-content min-content min-content;
+    }
+}

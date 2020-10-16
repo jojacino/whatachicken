@@ -35,6 +35,7 @@ class Website extends Component {
         // build and return page component
         return (
             <Page
+                toggleLivePage={this.props.toggleLivePage}
                 className={page.name}
                 key={ page.name }>
                 {page.name}

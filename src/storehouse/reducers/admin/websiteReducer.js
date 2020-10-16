@@ -3,6 +3,8 @@ import React from 'react'
 import HomePage from '../../../components/pages/home-page/home'
 import AboutPage from '../../../components/pages/about_page/about'
 import MenuPage from '../../../components/pages/menu_page/menu'
+import SocialPage from '../../../components/pages/social_page/social'
+import ContactPage from '../../../components/pages/contact_page/contact'
 
 const websiteReducer = (state, action) => {
     switch (action.type) {
@@ -35,13 +37,13 @@ const websiteReducer = (state, action) => {
                         name: 'social',
                         position: null,
                         urls: ['/social', '/events'],
-                        content: 'Social Page'
+                        content: <SocialPage />
                     },
                     {
                         name: 'contact',
                         position: null,
                         urls: ['/contact', '/phone', '/email', '/location'],
-                        content: 'Contact Page'
+                        content: <ContactPage />
                     }
                 ]
             }

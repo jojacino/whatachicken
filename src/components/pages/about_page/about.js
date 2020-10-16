@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './about.css'
+
 import { connect } from 'react-redux'
 
 // oaired components
@@ -18,7 +20,7 @@ class AboutPage extends Component {
             <div className="about">
 
                 {/** Header Section **/}
-                <div className="header">
+                <div className="about-header">
                     
                     <h1>About What a Chicken!!</h1>
 
@@ -27,34 +29,34 @@ class AboutPage extends Component {
                 </div>
 
                 {/** Image Section **/}
-                <div className="image-container">
+                <div className="about-image-container">
                     <h2>Our Location</h2>
                     <p>706 E Washington Street Petaluma <span></span> CA 94952</p>
-                    <div className="image2"></div>
+                    <div className="about-image-1"></div>
                 </div>
 
                 {/** Invite Section **/}
-                <div className="invite">
+                <div className="about-invite">
 
                     <h2>Why What a Chicken?</h2>
                     <p>At What a Chicken we care about our community. We prepare fresh barbeque and sides daily and offer it all to you at excellent pricing.</p>
 
                     {/** Image Section **/}
-                    <div className="image-container">
+                    <div className="about-image-container">
                         <h2>BBQ Plates!!</h2>
-                        <div className="image3"></div>
+                        <div className="about-image-2"></div>
                     </div>
 
                     {/** Image Section **/}
-                    <div className="image-container">
+                    <div className="about-image-container">
                         <h2>Burritos & Tacos!!</h2>
-                        <div className="image4"></div>
+                        <div className="about-image-3"></div>
                     </div>
 
                     {/** Image Section **/}
-                    <div className="image-container">
+                    <div className="about-image-container">
                         <h2>Join Us!!</h2>
-                        <div className="image5"></div>
+                        <div className="about-image-4"></div>
                     </div>
 
                     <p>Great BBQ is what we do and you are always welcome to join us here, at What a Chicken!!</p>

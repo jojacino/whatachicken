@@ -1,0 +1,170 @@
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: var(--size-smaller);
+    padding: 50px 10px;
+}
+
+.about-image-1 {
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/bbq03.jpg) no-repeat center;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 460px;
+    margin: 35px auto 20px auto;
+}
+
+.about-image-2 {
+    background: url(../../../media/images/chicken.jpg) no-repeat center;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 460px;
+    margin: 35px auto 20px auto;
+}
+
+.about-image-3 {
+    background: url(../../../media/images/familyplate01.jpg) no-repeat center;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 460px;
+    margin: 35px auto 20px auto;
+}
+
+.about-image-4 {
+    background: url(../../../media/images/familyplate03.jpg) no-repeat center;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 460px;
+    margin: 35px auto 20px auto;
+}
+
+.awards {
+    margin: 40px auto auto auto;
+    width: 100%;
+    max-width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .awards h2 {
+        margin: 40px auto;
+    }
+    .awards p {
+        font-family: var(--font-main);
+        width: 66hmax;
+        color: white;
+        margin: 10px auto;
+    }
+
+.award {
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--color-red);
+    filter: saturate(0.7) hue-rotate(-6deg) brightness(0.9);
+}
+
+    .award:hover {
+        filter: brightness(1);
+    }
+
+.award-img {
+    width: 80%;
+    margin: 15px;
+}
+
+.award-cover {
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 350ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
+}
+
+.award-active {
+    max-height: 500px;
+}
+
+, award > h2 {
+    color: white;
+}
+
+.award-2018 {
+    top: 35px;
+}
+
+.award-2019 {
+    top: -330px;
+}
+
+.award-2020 {
+    top: -680px;
+}
+
+.about-image-container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .about-image-container h2 {
+        position: absolute;
+        top: 80px;
+        z-index: 1;
+        font-size: var(--size-med);
+        font-family: var(--font-main);
+        margin: auto;
+    }
+    .about-image-container p {
+        position: absolute;
+        top: 40%;
+        z-index: 1;
+        font-size: var(--size-smaller);
+        font-family: var(--font-alt);
+        margin: 0px auto 50px auto;
+    }
+
+.about-header, .about-invite {
+    font-size: medium;
+}
+
+    .about-header h2, .about-header p, .about-invite p {
+        font-family: var(--font-alt);
+        margin: 15px auto;
+    }
+
+@media only screen and (min-width: 170px) {
+
+    .about-image-container h1 {
+        font-size: 1.8em;
+    }
+
+}
+
+@media only screen and (min-width: 200px) {
+    .about {
+
+        padding: 50px 20px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .about-header, .about-invite {
+        font-size: var(--size-smaller);
+    }
+}

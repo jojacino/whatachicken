@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './menu.css'
+
 import { connect } from 'react-redux'
 
 // paired components

@@ -13,11 +13,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 0;
+    padding: 15px 0;
     width: 100%;
     color: white;
     font-family: var(--font-main);
-    font-size: var(--size-tiny);
+    font-size: var(--size-smaller);
     font-weight: bold;
     cursor: pointer;
     z-index: 1;
@@ -57,11 +57,14 @@
 @media only screen and (min-width: 400px) {
 
     .menu-main-button {
-        padding: 18px 0;
+        padding: 19px 0;
     }
 }
 
 @media only screen and (min-width: 500px) {
+    .menu-main-button {
+        font-size: medium;
+    }
 }
 
 @media only screen and (min-width: 700px) {

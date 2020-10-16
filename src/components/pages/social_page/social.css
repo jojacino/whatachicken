@@ -1,0 +1,41 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: var(--size-smaller);
+}
+
+.social-image-1 {
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/facebook.png) no-repeat center;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: 200px auto;
+    width: 100%;
+    height: 200px;
+    margin: 35px auto 20px auto;
+}
+
+.social-image-3 {
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/yelp.png) no-repeat center;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: 200px auto;
+    width: 100%;
+    height: 130px;
+    margin: 35px auto 20px auto;
+}
+.social-image-container {
+    flex-direction: column;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+    .social-image-container div {
+        font-size: var(--size-small);
+    }
+
+.image-container div {
+    padding: 15px;
+}
+
+.social-header h1 {
+    font-size: var(--size-little);
+    margin: 50px auto;
+}
