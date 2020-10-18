@@ -38,8 +38,6 @@ class HomePage extends Component {
                     <h2>Chicken & Ribs</h2>
                     <p>We have BBQ plates with chicken and ribs, a delicious selection of sides including: rice, beans, coleslaw, and salad. We also serve burritos and tacos with your choice of camaron (shrimp), pescado (fish), carne asada (steak), pollo asada (bbq-chicken), and al pastor (bbq-pork).</p>
 
-                    <p>Check out our menu for more!</p>
-
                 </div>
 
                 {/** Image Section **/}
