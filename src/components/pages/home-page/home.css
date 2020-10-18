@@ -24,15 +24,6 @@
     margin: auto;
 }
 
-.menu-aside-button {
-    padding: 5px;
-    margin: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
 .home-image {
     background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 60%), url(../../../media/images/familyplate02.jpg) no-repeat center;
     filter: saturate(1.05) brightness(0.75);

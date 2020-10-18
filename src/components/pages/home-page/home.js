@@ -6,18 +6,7 @@ import { connect } from 'react-redux'
 
 // exported page
 class HomePage extends Component {
-    constructor(props) {
-        super(props)
-
-        this.setPageMenu = this.setPageMenu.bind(this)
-    }
-    setPageMenu() {
         
-
-        // set url in adress bar
-        window.location.pathname = '/menu'
-    }
-
     render() {
 
         return (
@@ -39,7 +28,7 @@ class HomePage extends Component {
                     <h2>Chicken & Ribs</h2>
                     <p>We have BBQ plates with chicken and ribs, a delicious selection of sides including: rice, beans, coleslaw, and salad. We also serve burritos and tacos with your choice of camaron (shrimp), pescado (fish), carne asada (steak), pollo asada (bbq-chicken), and al pastor (bbq-pork).</p>
 
-                    <p>Check out our menu for more!<button className="menu-aside-button" onMouseUp={this.setPageMenu}>Menu</button></p>
+                    <p>Check out our menu for more!</p>
 
                 </div>
 
