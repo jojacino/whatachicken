@@ -5,6 +5,7 @@
     justify-content: flex-start;
     font-size: var(--size-smaller);
     padding: 50px 10px;
+    text-shadow: 0 0 3px black;
 }
 
 .about-image-1 {
@@ -47,6 +48,11 @@
     margin: 35px auto 20px auto;
 }
 
+.awards-container p {
+    
+    font-family: var(--font-alt);
+}
+
 .awards {
     margin: 40px auto auto auto;
     width: 100%;
@@ -70,6 +76,7 @@
 .award {
     width: 100%;
     cursor: pointer;
+    padding-bottom: 35px;
     background-color: var(--color-red);
     filter: saturate(0.7) hue-rotate(-6deg) brightness(0.9);
 }

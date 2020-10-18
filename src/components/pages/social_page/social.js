@@ -31,7 +31,7 @@ class SocialPage extends Component {
                 {/** Header Section **/}
                 <div className="social-header">
                     
-                    <h1>Give a Review</h1>
+                    <h1>Check Out Our Following!!</h1>
 
                 </div>
 

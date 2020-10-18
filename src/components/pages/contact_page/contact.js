@@ -16,6 +16,12 @@ class AboutPage extends Component {
 
         window.location.href = "https://www.google.com/maps/dir//" + "706 E Washington Street, Petaluma CA 94952".replace(/ /gm, '+')
     }
+    phone() {
+
+        let link = document.createElement('a')
+        link.href = "tel:7079717549"
+        link.click()
+    }
 
     render() {
 
@@ -32,14 +38,16 @@ class AboutPage extends Component {
                 {/** Image Section **/}
                 <div className="contact-image-container">
 
-                    <span className="location">
+                    <span className="location" onClick={this.googleMaps}>
+                        <img className="contact-icon" alt="location icon" src="../../../media/images/location.svg" />
                         <h2>Our Location</h2>
-                        <p onClick={this.googleMaps}>706 E Washington Street Petaluma <span></span> CA 94952</p>
+                        <p>706 E Washington Street Petaluma <span></span> CA 94952</p>
                     </span>
 
-                    <span className="phone">
+                    <span className="phone" onClick={this.phone}>
+                        <img className="contact-icon" alt="phone icon" src="../../../media/images/phone.svg" />
                         <h2>Our Phone</h2>
-                        <a href="tel:7079717549">(707) 971-7549</a>
+                        <p>(707) 971-7549</p>
                     </span>
                     
                     <div className="contact-image"></div>

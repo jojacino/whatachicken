@@ -5,6 +5,7 @@
     justify-content: flex-start;
     font-size: var(--size-smaller);
     padding: 60px 0;
+    text-shadow: 0 0 3px black;
 }
 
 .contact-header {
@@ -22,6 +23,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 565px;
+}
+
+.contact-icon {
+    margin: 25px auto;
+    width: 60px;
+    filter: invert(1);
 }
 
 .location {
@@ -51,7 +59,7 @@
 
 .contact-image {
     background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 60%), url(../../../media/images/familyplate03.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.75);
+    filter: saturate(1.05) brightness(0.55);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     font-size: var(--size-smaller);
+    text-shadow: 0 0 3px black;
 }
 .menu-container {
     width: 100%;
