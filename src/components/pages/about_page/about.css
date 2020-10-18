@@ -150,7 +150,7 @@
 
     .about-header h2, .about-header p, .about-invite p {
         font-family: var(--font-alt);
-        margin: 15px auto;
+        margin: 50px auto; 
     }
 
 @media only screen and (min-width: 170px) {

@@ -25,7 +25,7 @@
 }
 
 .home-image {
-    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 60%), url(../../../media/images/familyplate02.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 50%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 45%), url(../../../media/images/familyplate02.jpg) no-repeat center;
     filter: saturate(1.05) brightness(0.75);
     background-size: cover;
     background-attachment: fixed;
@@ -41,8 +41,21 @@
 
     .home-header h2, .home-header p, .home-invite h2, .home-invite p {
         font-family: var(--font-alt);
-        margin: 15px auto;
+        margin: 50px auto;
     }
+
+.ordering-app {
+    background: url("../../../media/images/whatachicken-logo-chrome.png") center no-repeat, url("../../../media/images/toggle.png") center no-repeat;
+    height: 100px;
+    width: 230px;
+    background-size: 50px, 100% 100%;
+    margin: 65px auto 15px auto;
+    box-shadow: 0 0 3px 0 #777;
+}
+.ordering-app:hover {
+    cursor: pointer;
+    filter: contrast(1.08);
+}
 
 @media only screen and (min-width: 170px) {
 

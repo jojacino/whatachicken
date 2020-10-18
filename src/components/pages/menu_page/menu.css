@@ -107,6 +107,19 @@
     width: 100%;
 }
 
+.ordering-app {
+    background: url("../../../media/images/whatachicken-logo-chrome.png") center no-repeat, url("../../../media/images/toggle.png") center no-repeat;
+    height: 100px;
+    width: 230px;
+    background-size: 50px, 100% 100%;
+    margin: 65px auto 15px auto;
+    box-shadow: 0 0 3px 0 #777;
+    font-size: var(--size-smaller);
+}
+.ordering-app:hover {
+    cursor: pointer;
+    filter: contrast(1.08);
+}
 
 @media only screen and (min-width: 200px) {
 

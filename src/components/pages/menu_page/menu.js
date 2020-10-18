@@ -9,6 +9,16 @@ import LogoDark from '../shared/logo_dark'
 
 // exported page
 class MenuPage extends Component {
+    constructor(props) {
+        super(props)
+
+        this.orderOnline = this.orderOnline.bind(this)
+    }
+    orderOnline() {
+        let link = document.createElement('a')
+        link.href = "https://ordering.app/whatachicken/"
+        link.click()
+    }
     
     render() {
 
@@ -119,6 +129,11 @@ class MenuPage extends Component {
 
                 </div>
 
+                {/** Ordering App Section */}
+                <div className="ordering-app" onClick={this.orderOnline}>
+                    <div className="ordering-app-text">Order Online</div>
+                </div>
+                
             </div>
         )
     }

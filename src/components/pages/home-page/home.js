@@ -6,7 +6,17 @@ import { connect } from 'react-redux'
 
 // exported page
 class HomePage extends Component {
-        
+    constructor(props) {
+        super(props)
+
+        this.orderOnline = this.orderOnline.bind(this)
+    }
+    orderOnline() {
+        let link = document.createElement('a')
+        link.href = "https://ordering.app/whatachicken/"
+        link.click()
+    }
+
     render() {
 
         return (
@@ -38,6 +48,11 @@ class HomePage extends Component {
                     <div className="home-image"></div>
                 </div>
 
+                {/** Ordering App Section */}
+                <div className="ordering-app" onClick={this.orderOnline}>
+                    <div className="ordering-app-text">Order Online</div>
+                </div>
+                
             </div>
         )
     }
