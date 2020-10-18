@@ -9,17 +9,13 @@ import LogoDark from '../shared/logo_dark'
 
 // exported page
 class MenuPage extends Component {
-    constructor(props) {
-        super(props)
-
-    }
-
+    
     render() {
 
         return (
             <div className="menu-container">
 
-                <img className="menu-sign" src="./media/images/whatachicken-sign.png" />
+                <img alt="what a chicken sign" className="menu-sign" src="./media/images/whatachicken-sign.png" />
 
                 <div className="menu">
 
@@ -93,7 +89,10 @@ class MenuPage extends Component {
 
                     <div className="menu-section">
                         <h1>DRINKS</h1>
-                        <img className="doodle" src="./media/images/doodle.png" />
+                        <img
+                            alt="delicious drinks chicano artwork"
+                            className="doodle" 
+                            src="./media/images/doodle.png" />
 
                         <h3 className="menu-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Large Agua Fresca<h2 className="price">$4.00</h2></h3>
 
@@ -126,11 +125,5 @@ class MenuPage extends Component {
 }
 
 const mapStateToProps = state => ({ ...state })
-
-const mapDispatchToProps = dispatch => {
-    return {
-
-    }
-}
 
 export default connect(mapStateToProps)(MenuPage)

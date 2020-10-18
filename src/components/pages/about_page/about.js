@@ -9,11 +9,7 @@ import Awards from '../shared/awards'
 
 // exported page
 class AboutPage extends Component {
-    constructor(props) {
-        super(props)
     
-    }
-
     render() {
 
         return (
@@ -72,11 +68,5 @@ class AboutPage extends Component {
 }
 
 const mapStateToProps = state => ({ ...state })
-
-const mapDispatchToProps = dispatch => {
-    return {
-
-    }
-}
 
 export default connect(mapStateToProps)(AboutPage)

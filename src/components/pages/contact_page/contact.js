@@ -54,10 +54,4 @@ class AboutPage extends Component {
 
 const mapStateToProps = state => ({ ...state })
 
-const mapDispatchToProps = dispatch => {
-    return {
-
-    }
-}
-
 export default connect(mapStateToProps)(AboutPage)

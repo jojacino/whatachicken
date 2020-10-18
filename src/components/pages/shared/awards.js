@@ -43,6 +43,7 @@ class Awards extends Component {
 
                         <div className={this.state.activeAward === '1' ? 'award-active award-cover' : 'award-cover'}>
                             <img
+                                alt="2018 award for best new restaurant"
                                 onMouseUp={this.handleClickAward}
                                 className={"award-img"}
                                 src="../../media/images/2018award.png" />
@@ -62,6 +63,7 @@ class Awards extends Component {
 
                         <div className={this.state.activeAward === '2' ? 'award-active award-cover' : 'award-cover'}>
                             <img
+                                alt="2019 award for best take out food"
                                 onMouseUp={this.handleClickAward}
                                 className={"award-img"}
                                 src="../../media/images/2019award.png" />
@@ -81,6 +83,7 @@ class Awards extends Component {
 
                         <div className={this.state.activeAward === '3' ? 'award-active award-cover' : 'award-cover'}>
                             <img
+                                alt="2020 award for best cheap eats"
                                 onMouseUp={this.handleClickAward}
                                 className={"award-img"}
                                 src="../../media/images/2020award.png" />
@@ -96,11 +99,5 @@ class Awards extends Component {
 }
 
 const mapStateToProps = state => ({ ...state })
-
-const mapDispatchToProps = dispatch => {
-    return {
-
-    }
-}
 
 export default connect(mapStateToProps)(Awards)

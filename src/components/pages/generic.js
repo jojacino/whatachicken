@@ -43,6 +43,9 @@ class Page extends Component {
                             </div>
                             )
                     }
+                    else {
+                        return(<div key={"page:" + index + " blank"}></div>)
+                    }
                 })}
 
                 {/* PAGE FOOTER FOR EVERY PAGE */}
@@ -90,9 +93,9 @@ class Page extends Component {
                     <div className="footer-social">
 
                         <div className="footer-social-logos">
-                            <a className="footer-social-facebook" href="https://www.facebook.com/pages/What%20A%20Chicken/161197614732924/"></a>
+                            <a className="footer-social-facebook" href="https://www.facebook.com/pages/What%20A%20Chicken/161197614732924/">Facebook</a>
 
-                            <a className="footer-social-yelp" href="https://www.yelp.com/biz/what-a-chicken-petaluma"></a>
+                            <a className="footer-social-yelp" href="https://www.yelp.com/biz/what-a-chicken-petaluma">Yelp</a>
                         </div>
 
                         <a href="https://www.sonomacounty.com/restaurants/what-chicken">sonomacounty.com</a>
@@ -110,11 +113,5 @@ class Page extends Component {
 }
 
 const mapStateToProps = state => ({ ...state })
-
-const mapDispatchToProps = dispatch => {
-    return {
-
-    }
-}
 
 export default connect(mapStateToProps)(Page)

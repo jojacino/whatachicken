@@ -1,5 +1,4 @@
 ﻿/** CONSTANT METHODS */
-import React from 'react'
 
 // returns boolean if string can be parsed by JSON
 export function canJSON(str) {
@@ -30,7 +29,7 @@ export function stringifyArrObjs(arrObjs) {
             var property = obj[prop]
 
             // check if prop is an array or object
-            if (typeof ( property ) === 'object' || typeof ( property ) === 'array') {
+            if (typeof(property) === 'object' || property.length ) {
 
                 // get current property of iteration
                 obj[ prop ] = JSON.stringify( property )

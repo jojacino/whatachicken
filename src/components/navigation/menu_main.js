@@ -60,6 +60,7 @@ class MenuMain extends Component {
                 {/** company name and icon **/}
                 <div className="company-logo-container">
                     <img
+                        alt="company logo red rooster"
                         src="./media/images/whatachicken-logo-red.png"
                         className="company-logo" />
                 </div>

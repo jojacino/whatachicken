@@ -4,8 +4,6 @@ import './home.css'
 
 import { connect } from 'react-redux'
 
-import { updateReduxWebsite } from '../../../storehouse/actions/admin/administration_actions'
-
 // exported page
 class HomePage extends Component {
     constructor(props) {
@@ -57,11 +55,5 @@ class HomePage extends Component {
 }
 
 const mapStateToProps = state => ({ ...state })
-
-const mapDispatchToProps = dispatch => {
-    return {
-        updateReduxWebsite: website => dispatch(updateReduxWebsite(website))
-    }
-}
 
 export default connect(mapStateToProps)(HomePage)

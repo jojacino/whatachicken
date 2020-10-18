@@ -5,10 +5,6 @@ import './menu_main_button.css'
 import { connect } from 'react-redux'
 
 class MenuMainButton extends Component {
-    constructor(props) {
-        super(props)
-
-    }
     
     render() {
 

@@ -15,23 +15,15 @@ import Page from '../components/pages/generic'
 
 // Exported View
 class Website extends Component {
-    constructor(props) {
-        super(props)
-
-    }
+    
     generatePageComponent(name) {
 
         //copy website
         var website = Object.assign({}, this.props.admin.website)
         
         // get page by name from website
-        var page = website.pages.find(page => {
-            if (page.name === name) {  return page }
-        })
-
-        // determine and copy correct css object from page based on matchMedia query
-        var mobile = ' ( max-width: 699px ) '
-
+        var page = website.pages.find(page => page.name === name)
+        
         // build and return page component
         return (
             <Page
