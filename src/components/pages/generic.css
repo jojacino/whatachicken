@@ -16,11 +16,11 @@
     text-align: center;
 }
 
-.page-footer, .sugar-coded {
+.page-footer {
     background-color: var(--color-red);
     display: flex;
     flex-direction: column;
-    
+    text-shadow: 0 0 2px #333;
     align-items: center;
     justify-content: center;
     font-family: var(--font-alt);
@@ -31,6 +31,7 @@
     z-index: 3;
     margin-top: 25px;
     padding: 20px 5px;
+    
 }
     .page-footer p {
         font-size: var(--size-micro);
@@ -44,8 +45,9 @@
     min-height: 180px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: var(--size-mini);
+    font-weight: 100;
 }
     .footer-company p {
         font-size: var(--size-mini);
@@ -64,7 +66,7 @@
     font-size: var(--size-micro);
     color: var(--color-yellow);
     background-color: var(--color-red);
-    ;
+    
 }
 .powered-by {
     filter: saturate(1.25);
@@ -95,6 +97,7 @@
     color: white;
     font-size: var(--size-micro);
     margin: 5px auto;
+    font-family: var(--font-alt);
 }
 
 .footer-social {
@@ -129,6 +132,7 @@
     background-size: contain;
     box-shadow: 0 0 0 3px var(--color-red2) inset;
     color: transparent;
+    text-shadow: none;
 }
 
 .footer-social-yelp {
@@ -145,6 +149,7 @@
     font-size: 18px;
     font-weight: bold;
     font-family: var(--font-main) !important;
+    text-shadow: none;
 }
 
 @media only screen and (min-width: 200px) {
