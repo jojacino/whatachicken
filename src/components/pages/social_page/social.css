@@ -8,7 +8,7 @@
 }
 
 .social-image-1 {
-    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/facebook.png) no-repeat center;
+    background: url(../../../media/images/facebook.png) no-repeat center;
     filter: saturate(1.05) brightness(0.75);
     background-size: 200px auto;
     width: 100%;
@@ -17,7 +17,7 @@
 }
 
 .social-image-3 {
-    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/yelp.png) no-repeat center;
+    background: url(../../../media/images/yelp.png) no-repeat center;
     filter: saturate(1.05) brightness(0.75);
     background-size: 260px auto;
     width: 100%;
