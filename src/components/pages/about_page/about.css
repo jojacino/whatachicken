@@ -146,11 +146,20 @@
 
 .about-header, .about-invite {
     font-size: medium;
+    
 }
-
+.about-header {
+    margin: 50px auto 0px auto;
+}
+.about-invite {
+    margin: 16px auto 50px auto;
+}
     .about-header h2, .about-header p, .about-invite p {
         font-family: var(--font-alt);
         margin: 50px auto; 
+    }
+    .about-invite h2 {
+        margin: 65px auto 25px auto;
     }
 
 @media only screen and (min-width: 170px) {
