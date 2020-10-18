@@ -65,10 +65,10 @@ class Administration extends Component {
 
         // set admin.website.currentPage
         this.setLivePage(name)
-
+        /**
         // set url in adress bar
         window.history.replaceState(null, name, name)
-
+        */
     } //  for (MENU MAIN BUTTONS)
     toggleDropDownMenu() {
 
