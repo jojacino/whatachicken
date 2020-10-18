@@ -44,20 +44,6 @@
         margin: 50px auto;
     }
 
-.ordering-app {
-    background: url("../../../media/images/whatachicken-logo-chrome.png") center no-repeat, url("../../../media/images/toggle.png") center no-repeat;
-    height: 100px;
-    width: 230px;
-    background-size: 60px, contain;
-    background-blend-mode: color-dodge;
-    margin: 65px auto 15px auto;
-    box-shadow: 0 0 3px 0 #777;
-}
-.ordering-app:hover {
-    cursor: pointer;
-    filter: contrast(1.08);
-}
-
 @media only screen and (min-width: 170px) {
 
     .home-image-container h1 {
