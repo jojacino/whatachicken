@@ -5,7 +5,7 @@
     justify-content: flex-start;
     font-size: var(--size-smaller);
     padding: 60px 0;
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 2px #333;
 }
 
 .contact-header {
