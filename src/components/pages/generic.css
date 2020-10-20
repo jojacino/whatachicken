@@ -46,11 +46,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-size: var(--size-mini);
+    font-size: var(--size-tiny);
     font-weight: 100;
 }
     .footer-company p {
-        font-size: var(--size-mini);
+        font-size: var(--size-tiny);
         font-family: var(--font-alt2);
         cursor: pointer;
     }
@@ -58,7 +58,12 @@
         color: silver;
     }
 .sugar-coded {
-    width: 80%;
+    background: url("../../media/images/footerbg.png") no-repeat bottom center;
+    background-size: contain;
+    background-blend-mode: hard-light;
+    height: 150px;
+    width: 100%;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,25 +73,11 @@
     background-color: var(--color-red);
     
 }
-.powered-by {
-    filter: saturate(1.25);
-    width: 100%;
-    text-align: center;
-    color: #999;
-    -webkit-text-stroke: 1pt orchid;
-    text-shadow: 2px 1px 0 black, -1px -1px 0 white;
-    font-weight: bold;
-    margin: 5px auto;
-    font-size: var(--size-tiny);
-}
-.powered-by div {
-    -webkit-text-stroke: 1pt dodgerblue;
-}
 
 .page-footer, .sugar-coded a {
     color: white;
     font-family: var(--font-main);
-    font-size: var(--size-mini);
+    font-size: var(--size-smaller);
     text-align: center;
 }
 .copyright {

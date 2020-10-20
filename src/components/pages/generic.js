@@ -8,13 +8,35 @@ import { connect } from 'react-redux'
 class Page extends Component {
     constructor(props) {
         super(props)
+        this.state = {
+            mediaLarge: window.matchMedia("(max-width: 700px)").matches ? false : true
+        }
 
+        this.media = this.media.bind(this)
+        this.goLarge = this.goLarge.bind(this)
         this.googleMaps = this.googleMaps.bind(this)
+        
+        this.media('700')
     }
-
+    
     media(minSize) {
+        
+        const page = this
+        const mediaQueryList = window.matchMedia("(max-width: " + minSize + "px)")
 
-        return window.matchMedia("(max-width: " + minSize + "px)").matches ? true : false
+        function handleMediaChange(e) {
+            if (e.matches) {
+                /* The viewport is currently below 700px */
+                page.setState({mediaLarge: false})
+
+            } else {
+                /* The viewport is currently above 700px */
+                page.setState({mediaLarge: true})
+
+            }
+        }
+        
+        mediaQueryList.addEventListener('change', handleMediaChange)
     }
     goLarge(e) {
 
@@ -48,6 +70,7 @@ class Page extends Component {
                     }
                 })}
 
+
                 {/* PAGE FOOTER FOR EVERY PAGE */}
                 <footer className="page-footer">
 
@@ -61,33 +84,21 @@ class Page extends Component {
                     </div>
 
                     {/* Sugar Coded Info || Web Master */}
-                    {this.media(400) ? (() => {
+                    {this.state.mediaLarge ? (() => {
 
                         return (
                             <div className="sugar-coded">
-                                <p>This Website is powered by</p>
-                                <div className="powered-by"><div>REACT</div>REDUX</div>
 
-                                <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a> <div className="copyright">copyright &copy; 2020, all rights reserved</div>
+                                <p>This Website is powered by</p>
+
+                                <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a>
+                                
+                                <div className="copyright">copyright &copy; 2020, all rights reserved</div>
 
                             </div>
-                            )
-
-                    })() :
-
-                        (() => {
-
-                            return (
-                                <div className="sugar-coded">
-                                    <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a> <div className="copyright">copyright &copy; 2020, all rights reserved</div>
-
-                                    <p>This Website is powered by</p>
-                                    <div className="powered-by"><div>REACT</div>REDUX</div>
-
-                                </div>
-                                )
-
-                        })()}
+                        )
+                        })() : <div></div>
+                    }
 
                     {/* Social Links */}
                     <div className="footer-social">
@@ -105,7 +116,26 @@ class Page extends Component {
 
                     </div>
                     
+                    {/* Sugar Coded Info || Web Master */}
+                    {!this.state.mediaLarge ? (() => {
+
+                        return (
+                            <div className="sugar-coded">
+
+                                <p>This Website is powered by</p>
+
+                                <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a>
+                                
+                                <div className="copyright">copyright &copy; 2020, all rights reserved</div>
+
+                            </div>
+                        )
+
+                    })() : <div></div>
+                    }
+
                 </footer>
+
 
             </div>
         )
