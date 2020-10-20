@@ -145,7 +145,7 @@
     }
 
 .about-header, .about-invite {
-    font-size: var(--size-small);
+    font-size: var(--size-smaller);
     
 }
 .about-header {
