@@ -10,7 +10,7 @@
 
 .about-image-1 {
     background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/bbq03.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.75);
+    filter: saturate(1.05) brightness(1.1);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -20,7 +20,7 @@
 
 .about-image-2 {
     background: url(../../../media/images/chicken.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.75);
+    filter: saturate(1.05) brightness(0.8);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -30,7 +30,7 @@
 
 .about-image-3 {
     background: url(../../../media/images/familyplate01.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.75);
+    filter: saturate(1.05) brightness(0.8);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -40,7 +40,7 @@
 
 .about-image-4 {
     background: url(../../../media/images/familyplate03.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.75);
+    filter: saturate(1.05) brightness(0.8);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -156,7 +156,7 @@
 }
     .about-header h2, .about-header p, .about-invite p {
         font-family: var(--font-alt);
-        margin: 50px auto; 
+        margin: 16px auto; 
     }
     .about-invite h2 {
         margin: 65px auto 25px auto;
