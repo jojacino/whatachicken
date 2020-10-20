@@ -37,30 +37,9 @@
         font-size: var(--size-micro);
     }
 .footer-company {
-    background-color: var(--color-red2);
-    padding: 20px 5px 0px 5px;
-    text-align: center;
-    width: 90%;
-    display: flex;
-    min-height: 180px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: var(--size-tiny);
-    font-weight: 100;
-}
-    .footer-company p {
-        font-size: var(--size-tiny);
-        font-family: var(--font-alt2);
-        cursor: pointer;
-    }
-    .footer-company p:hover {
-        color: silver;
-    }
-.sugar-coded {
     background: url("../../media/images/footerbg.png") no-repeat bottom center;
-    background-size: contain;
-    background-blend-mode: hard-light;
+    background-size: 100% 100%;
+    background-blend-mode: soft-light;
     height: 150px;
     width: 100%;
     padding-top: 40px;
@@ -68,9 +47,37 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+    font-size: var(--size-smaller);
+    background-color: var(--color-red2);
+}
+.footer-company a {
+    font-size: var(--size-tiny);
+}
+.footer-company p {
+    font-size: var(--size-tiny);
+    font-family: var(--font-alt2);
+    cursor: pointer;
+}
+    .footer-company p:hover {
+        color: silver;
+    }
+.sugar-coded {
+    background: url("../../media/images/footerbg.png") no-repeat bottom center;
+    background-size: 100% 100%;
+    background-blend-mode: soft-light;
+    height: 150px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
     font-size: var(--size-micro);
     color: var(--color-yellow);
-    background-color: var(--color-red);
+    background-color: var(--color-red2);
     
 }
 
@@ -87,17 +94,21 @@
     text-align: center;
     color: white;
     font-size: var(--size-micro);
-    margin: 5px auto;
     font-family: var(--font-alt);
 }
 
 .footer-social {
+    background: url("../../media/images/footerbg.png") no-repeat bottom center;
+    background-size: 100% 100%;
+    background-blend-mode: soft-light;
+    height: 150px;
+    width: 100%;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 10px 5px;
-    width: 90%;
+    text-align: center;
+    font-size: var(--size-mini);
     background-color: var(--color-red2);
 }
 
