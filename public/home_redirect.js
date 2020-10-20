@@ -1,8 +1,6 @@
 (() => {
-
-    window.location.pathname = '/'
-
+    
     // set url in adress bar
-    window.history.replaceState(null, "home", "home")
+    setTimeout(indow.history.replaceState(null, "home", "home"), 400)
 
 })()
