@@ -36,7 +36,7 @@
 }
 
 .home-header, .home-invite {
-    font-size: medium;
+    font-size: var(--size-small);
 }
 
     .home-header h2, .home-header p, .home-invite h2, .home-invite p {
