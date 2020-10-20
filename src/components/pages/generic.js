@@ -14,7 +14,6 @@ class Page extends Component {
 
         this.media = this.media.bind(this)
         this.goLarge = this.goLarge.bind(this)
-        this.googleMaps = this.googleMaps.bind(this)
         
         this.media('700')
     }
@@ -45,13 +44,12 @@ class Page extends Component {
         }
 
     }
-    googleMaps() {
-
-        window.location.href = "https://www.google.com/maps/dir//" + "706 E Washington Street, Petaluma CA 94952".replace(/ /gm, '+')
-    }
 
     render() {
 
+        let menuRandom = Math.round(Math.random() * 1) ? "drinks" : "food"
+        let contactRandom = Math.round(Math.random() * 1) ? "phone" : "location"
+        
         return (
             <div className="viewport">
 
@@ -78,8 +76,16 @@ class Page extends Component {
                     <div className="footer-company">
 
                         What a Chicken BBQ Restaurant
-                        <p onClick={this.googleMaps}>706 E Washington St, Petaluma, CA 94952</p>
-                        <a href="tel:7079717549">(707) 971-7549</a>
+                        <a 
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            href={"https://www.google.com/maps/dir//" + "706 E Washington Street, Petaluma CA 94952".replace(/ /gm, '+')}>
+                        706 E Washington Street, Petaluma CA 94952
+                        </a>
+                        <a 
+                            href="tel:7079717549">
+                            (707) 971-7549
+                        </a>
 
                     </div>
 
@@ -91,7 +97,12 @@ class Page extends Component {
 
                                 <p>This Website is powered by</p>
 
-                                <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a>
+                                <a 
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    href="mailto:jojacino@gmail.com">
+                                        Sugar C☼ded Web
+                                </a>
                                 
                                 <div className="copyright">copyright &copy; 2020, all rights reserved</div>
 
@@ -101,17 +112,55 @@ class Page extends Component {
                     }
 
                     {/* Social Links */}
+                    <div id="footer" className="bottom-nav">
+                        <a href="/welcome">Home</a>
+                        <a href="/info">About</a>
+                        <a href={"/" + menuRandom }>Menu</a>
+                        <a href="/events">Social</a>
+                        <a href={"/" + contactRandom }>Contact</a>
+                    </div>
+
+                    <a 
+                        href="#header"
+                        className="header-footer-toggle">
+                            To Top
+                    </a>
+
                     <div className="footer-social">
 
                         <div className="footer-social-logos">
-                            <a className="footer-social-facebook" href="https://www.facebook.com/pages/What%20A%20Chicken/161197614732924/">Facebook</a>
 
-                            <a className="footer-social-yelp" href="https://www.yelp.com/biz/what-a-chicken-petaluma">Yelp</a>
+                            <a 
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="footer-social-facebook" 
+                                href="https://www.facebook.com/pages/What%20A%20Chicken/161197614732924/">
+                                    Facebook
+                            </a>
+
+                            <a 
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="footer-social-yelp" 
+                                href="https://www.yelp.com/biz/what-a-chicken-petaluma">
+                                    Yelp
+                            </a>
+
                         </div>
 
-                        <a href="https://www.sonomacounty.com/restaurants/what-chicken">sonomacounty.com</a>
+                        <a 
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            href="https://www.sonomacounty.com/restaurants/what-chicken">
+                                sonomacounty.com
+                            </a>
 
-                        <a href="https://www.petaluma360.com/article/news/petalumas-what-a-chicken-gets-crowing-praise/?artslide=2&sba=AAS">Argus Courier.com</a>
+                        <a 
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            href="https://www.petaluma360.com/article/news/petalumas-what-a-chicken-gets-crowing-praise/?artslide=2&sba=AAS">
+                                Argus Courier.com
+                            </a>
 
 
                     </div>
@@ -124,7 +173,12 @@ class Page extends Component {
 
                                 <p>This Website is powered by</p>
 
-                                <a href="mailto:jojacino@gmail.com">Sugar C☼ded Web</a>
+                                <a 
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    href="mailto:jojacino@gmail.com">
+                                        Sugar C☼ded Web
+                                </a>
                                 
                                 <div className="copyright">copyright &copy; 2020, all rights reserved</div>
 

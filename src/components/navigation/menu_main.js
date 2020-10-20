@@ -35,7 +35,8 @@ class MenuMain extends Component {
 
         return (
                 <div
-                className={"menu-main"}>
+                    id="header"
+                    className={"menu-main"}>
                         
                     {/* DROPDOWN MENU  HIDING AREA */}
                     <div className="dropdown-hiding-area">
@@ -78,7 +79,7 @@ class MenuMain extends Component {
                 {/* toggle button for dropdown menu  */}
                 <MenuMainToggle
                 toggleDropDownMenu={ this.media(400) ? this.props.toggleDropDownMenu : this.goLarge } />
-
+                
             </div>
         )
     }

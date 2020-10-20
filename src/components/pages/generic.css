@@ -16,8 +16,43 @@
     text-align: center;
 }
 
+.bottom-nav {
+    background-color: var(--color-red2);
+    box-shadow: 0 0 25px 0 rgb(186, 11, 11) inset;
+    position: absolute;
+    top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: var(--size-mini);
+    height: 40px;
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+
+.bottom-nav a {
+    
+    font-family: var(--font-main) !important;
+}
+
+.header-footer-toggle {
+    font-family: var(--font-main) !important;
+    position: absolute;
+    top: -88px;
+    height: 60px;
+    width: 40px;
+    background: url("../../media/images/toggle_up.png") no-repeat top center;
+    background-size: contain;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .page-footer {
-    background-color: var(--color-red);
+    position: relative;
+    background-color: var(--color-red2);
     display: flex;
     flex-direction: column;
     text-shadow: 0 0 2px #333;
@@ -30,7 +65,7 @@
     text-transform: uppercase;
     z-index: 3;
     margin-top: 25px;
-    padding: 20px 5px;
+    padding: 55px 15px 20px 15px;
     
 }
     .page-footer p {
@@ -42,6 +77,7 @@
     background-blend-mode: soft-light;
     height: 150px;
     width: 100%;
+    margin: 5px;
     padding-top: 40px;
     display: flex;
     flex-direction: column;
@@ -52,22 +88,18 @@
     background-color: var(--color-red2);
 }
 .footer-company a {
-    font-size: var(--size-tiny);
-}
-.footer-company p {
-    font-size: var(--size-tiny);
+    font-size: var(--size-mini);
     font-family: var(--font-alt2);
     cursor: pointer;
 }
-    .footer-company p:hover {
-        color: silver;
-    }
+
 .sugar-coded {
     background: url("../../media/images/footerbg.png") no-repeat bottom center;
     background-size: 100% 100%;
     background-blend-mode: soft-light;
     height: 150px;
     width: 100%;
+    margin: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -103,6 +135,7 @@
     background-blend-mode: soft-light;
     height: 150px;
     width: 100%;
+    margin: 5px;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -132,9 +165,10 @@
     width: 80px;
     background: url(../../media/images/facebook.png) no-repeat center, white;
     background-size: contain;
-    box-shadow: 0 0 0 3px var(--color-red2) inset;
+    box-shadow: 0 0 0 1px var(--color-red2) inset;
     color: transparent;
     text-shadow: none;
+    margin-right: 10px;
 }
 
 .footer-social-yelp {
@@ -142,8 +176,8 @@
     width: 80px;
     background: url(../../media/images/yelp.png) no-repeat center, white;
     background-size: contain;
-    box-shadow: 0 0 0 3px var(--color-red2) inset;
     color: #444;
+    box-shadow: 0 0 0 1px var(--color-red2) inset;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,6 +193,11 @@
 
 @media only screen and (min-width: 500px) {
 
+    .bottom-nav {
+        
+        font-size: var(--size-smaller);
+    }
+    
 }
 
 @media only screen and (min-width: 700px) {
@@ -168,6 +207,9 @@
     }
     .footer-company, .sugar-coded, .footer-social {
         width: 100%;
+    }
+    .footer-social {
+        padding-bottom: 0;
     }
 }
 

@@ -6,23 +6,17 @@ import { connect } from 'react-redux'
 
 // exported page
 class OrderingApp extends Component {
-    constructor(props) {
-        super(props)
-
-        this.orderOnline = this.orderOnline.bind(this)
-    }
-    orderOnline() {
-        let link = document.createElement('a')
-        link.href = "https://ordering.app/whatachicken/"
-        link.click()
-    }
     
     render() {
 
         return (
-            <div className="ordering-app" onClick={this.orderOnline}>
+            <a 
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://ordering.app/whatachicken/"
+                className="ordering-app">
                 <div className="ordering-app-text">Order Online</div>
-            </div>
+            </a>
         )
     }
 }

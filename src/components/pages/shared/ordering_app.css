@@ -4,14 +4,14 @@
     height: 100px;
     width: 180px;
     background-size: 50px, contain;
-    margin: 65px auto 15px auto;
+    margin: 65px auto 65px auto;
     cursor: pointer;
     filter: contrast(1.2);
-    background-blend-mode: color-dodge;
+    background-blend-mode: screen;
     font-size: var(--size-smaller);
 
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
+    transition: all .35s ease;
+    -webkit-transition: all .35s ease;
 }
 .ordering-app:hover {
 
@@ -19,5 +19,5 @@
 }
 .ordering-app:active {
 
-    filter: contrast(1.25) drop-shadow(0 0 25px #444);
+    filter: contrast(1.85) drop-shadow(0 0 9px #666);
 }
