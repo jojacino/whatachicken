@@ -5,13 +5,13 @@
     justify-content: flex-start;
     font-size: var(--size-smaller);
     padding: 50px 10px;
-    text-shadow: 0 0 2px #333;
+    text-shadow: 0 0 2px #222;
 }
 
 .about-image-1 {
     background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/bbq03.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(1.1);
-    background-size: contain;
+    filter: saturate(1.05) brightness(0.75);
+    background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 460px;
@@ -20,7 +20,7 @@
 
 .about-image-2 {
     background: url(../../../media/images/chicken.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.8);
+    filter: saturate(1.05) brightness(0.75);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -30,7 +30,7 @@
 
 .about-image-3 {
     background: url(../../../media/images/familyplate01.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.8);
+    filter: saturate(1.05) brightness(0.75);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;
@@ -40,7 +40,7 @@
 
 .about-image-4 {
     background: url(../../../media/images/familyplate03.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.8);
+    filter: saturate(1.05) brightness(0.75);
     background-size: contain;
     background-attachment: fixed;
     width: 100%;

@@ -26,7 +26,7 @@
 
 .home-image {
     background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 50%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 45%), url(../../../media/images/familyplate02.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.85);
+    filter: saturate(1.05) brightness(0.8);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
