@@ -9,12 +9,12 @@
     justify-content: center;
 }
 .menu-main-button {
-    background: var(--color-red);
+    background: var(--color-red2);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 0;
     width: 100%;
+    padding: 15px 0;
     color: white;
     font-family: var(--font-main);
     font-size: var(--size-smaller);
@@ -72,6 +72,6 @@
         width: 100%;
     }
     .menu-main-button {
-        width: 100%;
+        
     }
 }

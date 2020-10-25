@@ -17,8 +17,6 @@
 }
 
 .bottom-nav {
-    background-color: var(--color-red2);
-    box-shadow: 0 0 25px 0 rgb(186, 11, 11) inset;
     position: absolute;
     top: -15px;
     display: flex;
@@ -31,8 +29,16 @@
 }
 
 .bottom-nav a {
-    
+    width: 100%;
+    padding: 15px 0;
     font-family: var(--font-main) !important;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+}
+
+.bottom-nav a:hover {
+    background-color: var(--color-red);
 }
 
 .header-footer-toggle {
@@ -156,7 +162,7 @@
     font-family: var(--font-alt);
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 3px;
+    margin-top: 16px;
     justify-self: flex-end;
 }
 

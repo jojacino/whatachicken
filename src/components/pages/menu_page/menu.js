@@ -16,6 +16,9 @@ class MenuPage extends Component {
         return (
             <div className="menu-container">
 
+                {/** Ordering App Section */}
+                <OrderingApp />
+                
                 <img alt="what a chicken sign" className="menu-sign" src="./media/images/whatachicken-sign.png" />
 
                 <div className="menu">
@@ -120,9 +123,6 @@ class MenuPage extends Component {
 
                 </div>
 
-                {/** Ordering App Section */}
-                <OrderingApp />
-                
             </div>
         )
     }

@@ -9,7 +9,7 @@
 }
 
 .about-image-1 {
-    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/bbq03.jpg) no-repeat center;
+    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), url(../../../media/images/whatachicken-face2.png) no-repeat center;
     filter: saturate(1.05) brightness(0.75);
     background-size: cover;
     background-attachment: fixed;

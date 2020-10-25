@@ -37,7 +37,9 @@ class MenuMain extends Component {
                 <div
                     id="header"
                     className={"menu-main"}>
-                        
+                    
+                    <img src="./media/images/delicious-chicken.png" className="header-img" />
+
                     {/* DROPDOWN MENU  HIDING AREA */}
                     <div className="dropdown-hiding-area">
 

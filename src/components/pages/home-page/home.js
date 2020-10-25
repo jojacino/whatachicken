@@ -14,13 +14,16 @@ class HomePage extends Component {
         return (
             <div className="home">
 
+                {/** Ordering App Section */}
+                <OrderingApp />
+
                 {/** Header Section **/}
                 <div className="home-header">
                     
-                    <h1>Family Style BBQ Mexican Resturaunt</h1>
+                    <h1>Family Style BBQ</h1>
 
                     <h2>Welcome</h2>
-                    <p>At our resturaunt we love home made family barbeque and our customers do as well. We prepair and BBQ chicken and ribs weekly Wednesday through Friday and open at 11:00 a.m.</p>
+                    <p>At our resturaunt we love home made family barbeque and our customers do as well. We prepare and BBQ chicken and ribs weekly Wednesday through Friday and are open from 11:00 a.m. until 8:00 p.m.</p>
 
                 </div>
 
@@ -37,9 +40,6 @@ class HomePage extends Component {
                     <h1>BBQ Chicken & Ribs</h1>
                     <div className="home-image"></div>
                 </div>
-
-                {/** Ordering App Section */}
-                <OrderingApp />
 
             </div>
         )

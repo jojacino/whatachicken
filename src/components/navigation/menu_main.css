@@ -3,9 +3,18 @@
     margin-top: 60px;
 }
 
+.header-img {
+    min-height: 100%;
+    width: auto;
+    top:0px; 
+    position: absolute;
+    z-index: -1;
+    filter: brightness(0.5);
+}
 .menu-main {
+    overflow: hidden;
     position: relative;
-    background-color: var(--color-red);
+    background-color: var(--color-red2);
     position: relative;
     top: 0px;
     width: 100%;
@@ -33,6 +42,7 @@
     max-width: 130px;
     filter: hue-rotate(415deg) saturate(65%) brightness(300%);
     transform: rotate(3deg);
+    mix-blend-mode: hard-light;
 }
 
 .company-name-container {
@@ -51,6 +61,7 @@
     justify-content: center;
     text-align: center;
     margin: 10px auto;
+    text-shadow: 0 0 9px black;
 }
 
 .company-description {
@@ -86,13 +97,15 @@
     }
 }
 @media only screen and (min-width: 500px) {
-
     .company {
         font-size: var(--size-huge);
     }
 }
 @media only screen and (min-width: 700px) {
 
+    .header-img {
+        width: 100%;
+    }
     .company {
         width: 630px;
         display: flex;

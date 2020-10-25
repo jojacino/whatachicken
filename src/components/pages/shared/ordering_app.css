@@ -4,7 +4,7 @@
     height: 100px;
     width: 180px;
     background-size: 50px, contain;
-    margin: 65px auto 65px auto;
+    margin: 25px auto 25px auto;
     cursor: pointer;
     filter: contrast(1.2);
     background-blend-mode: screen;

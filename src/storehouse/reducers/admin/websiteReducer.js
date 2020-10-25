@@ -17,33 +17,28 @@ const websiteReducer = (state, action) => {
                 pages: [
                     {
                         name: 'home',
-                        position: null,
                         urls: ['/home', '/welcome'],
                         content: <HomePage />
                     },
                     {
-                        name: 'about',
-                        position: null,
-                        urls: ['/about', '/info'],
-                        content: <AboutPage />
-                    },
-                    {
                         name: 'menu',
-                        position: null,
                         urls: ['/menu', '/food', '/drinks'],
                         content: <MenuPage />
                     },
                     {
-                        name: 'social',
-                        position: null,
-                        urls: ['/social', '/events'],
-                        content: <SocialPage />
+                        name: 'about',
+                        urls: ['/about', '/info'],
+                        content: <AboutPage />
                     },
                     {
                         name: 'contact',
-                        position: null,
                         urls: ['/contact', '/phone', '/email', '/location'],
                         content: <ContactPage />
+                    },
+                    {
+                        name: 'social',
+                        urls: ['/social', '/events'],
+                        content: <SocialPage />
                     }
                 ]
             }
