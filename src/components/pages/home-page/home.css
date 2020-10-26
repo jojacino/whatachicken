@@ -27,10 +27,11 @@
 .home-image {
     background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%), url(../../../media/images/delicious-bbq.png) no-repeat center;
     filter: saturate(1.05) brightness(0.9);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     background-position: top;
     width: 100%;
+    max-width: 800px;
     height: 460px;
     margin: 35px auto 20px auto;
 }
