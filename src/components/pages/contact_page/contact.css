@@ -59,7 +59,7 @@
 
 .contact-image {
     background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 10%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 60%), url(../../../media/images/familyplate03.jpg) no-repeat center;
-    filter: saturate(1.05) brightness(0.55);
+    filter: saturate(1.05) brightness(0.7);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;

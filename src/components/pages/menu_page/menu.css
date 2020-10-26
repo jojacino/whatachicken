@@ -55,31 +55,31 @@
 }
 
 .grilled-img {
-    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), url(../../../media/images/ribs.png);
+    background: url(../../../media/images/grilled.png);
     
     background-position: 0%;
     background-size: cover;
 }
 .burritos-img {
-    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), url(../../../media/images/burrito.png);
+    background: url(../../../media/images/burritos.png);
     
     background-position: 0%;
     background-size: cover;
 }
 .tacos-img {
-    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), url(../../../media/images/tacos3.png);
+    background: url(../../../media/images/tacos.png);
     
     background-position: 0%;
     background-size: cover;
 }
 .sides-img {
-    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), url(../../../media/images/bbq02.jpg);
+    background: url(../../../media/images/sides.png);
     
     background-position: 0%;
     background-size: cover;
 }
 .drinks-img {
-    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), url(../../../media/images/theshop01.jpg);
+    background: url(../../../media/images/theshop.png);
     
     background-position: 0%;
     background-size: cover;
