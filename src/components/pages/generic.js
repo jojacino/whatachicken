@@ -114,10 +114,10 @@ class Page extends Component {
                     {/* Social Links */}
                     <div id="footer" className="bottom-nav">
                         <a href="/welcome">Home</a>
-                        <a href="/info">About</a>
                         <a href={"/" + menuRandom }>Menu</a>
-                        <a href="/events">Social</a>
+                        <a href="/info">About</a>
                         <a href={"/" + contactRandom }>Contact</a>
+                        <a href="/events">Social</a>
                     </div>
 
                     <a 

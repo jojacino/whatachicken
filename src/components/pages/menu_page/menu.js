@@ -27,6 +27,8 @@ class MenuPage extends Component {
                         <h1>GRILLED</h1>
                         <div className="banner-box"></div>
 
+                        <div className="menu-image grilled-img"></div>
+
                         <p className="menu-item"><h2 style={{ display: 'inline' }}>2</h2> Piece BBQ, <h2 style={{ display: 'inline' }}>2</h2>Sides<h2 className="price" style={{ margin: 'auto' }}>$7.99</h2></p>
 
                         <p className="menu-item"><h2 style={{ display: 'inline' }}>4</h2> Piece BBQ, <h2 style={{ display: 'inline' }}>2</h2>Sides<h2 className="price" style={{ margin: 'auto' }}>$12.99</h2></p>
@@ -38,6 +40,8 @@ class MenuPage extends Component {
                     <div className="menu-section">
                         <h1>BURRITOS</h1>
                         <h4 className="menu-sub-header">Wraps & Salads</h4>
+
+                        <div className="menu-image burritos-img"></div>
 
                         <h3 className="menu-item" style={{display:'flex',alignItems:'center',justifyContent:'center'}}>Chicken<h2 className="price">$9.99</h2></h3>
 
@@ -53,6 +57,8 @@ class MenuPage extends Component {
 
                     <div className="menu-section">
                         <h1>TACOS</h1>
+
+                        <div className="menu-image tacos-img"></div>
 
                         <h3 className="menu-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Chicken<h2 className="price">$5.00</h2></h3>
 
@@ -70,6 +76,9 @@ class MenuPage extends Component {
 
                     <div className="menu-section">
                         <h1>SIDES</h1>
+
+                        <div className="menu-image sides-img"></div>
+
                         <h2 className="price" style={{ margin: 'auto' }}>$3.00</h2>
 
                         <h3 className="menu-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Potato Salad</h3>
@@ -93,8 +102,11 @@ class MenuPage extends Component {
 
                     <div className="menu-section">
                         <h1>DRINKS</h1>
+
+                        <div className="menu-image drinks-img"></div>
+                        
                         <img
-                            alt="delicious drinks chicano artwork"
+                            alt="delicious drinks artwork"
                             className="doodle" 
                             src="./media/images/doodle.png" />
 

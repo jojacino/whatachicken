@@ -38,7 +38,7 @@ class MenuMain extends Component {
                     id="header"
                     className={"menu-main"}>
                     
-                    <img alt="some delicious chicken" src="./media/images/delicious-chicken.png" className="header-img" />
+                    <div className="header-img"></div>
 
                     {/* DROPDOWN MENU  HIDING AREA */}
                     <div className="dropdown-hiding-area">
@@ -76,8 +76,7 @@ class MenuMain extends Component {
 
                     <h2 className="company-description">Pollo Asado</h2>
                 </div>
-
-
+                
                 {/* toggle button for dropdown menu  */}
                 <MenuMainToggle
                 toggleDropDownMenu={ this.media(400) ? this.props.toggleDropDownMenu : this.goLarge } />

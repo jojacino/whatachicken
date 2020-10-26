@@ -25,8 +25,8 @@
 }
 
 .home-image {
-    background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0) 50%), linear-gradient(180deg, rgba(0,0,0,1), rgba(0,0,0,0) 45%), url(../../../media/images/delicious-bbq.png) no-repeat center;
-    filter: saturate(1.05) brightness(0.8);
+    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%), url(../../../media/images/delicious-bbq.png) no-repeat center;
+    filter: saturate(1.05) brightness(0.9);
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
