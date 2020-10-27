@@ -6,7 +6,7 @@
     font-size: var(--size-smaller);
     padding: 60px 0;
     text-shadow: 0 0 2px #333;
-    min-height: 950px;
+    min-height: 750px;
 }
 
 .contact-header {
@@ -61,6 +61,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    fontFamily: var(--font-alt);
 }
 
     .contact-image-container span p {
