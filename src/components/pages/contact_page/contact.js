@@ -50,6 +50,11 @@ class AboutPage extends Component {
                         <p>(707) 971-7549</p>
                     </span>
                     
+                    <div className="hours">
+                        <h2>Hours</h2>
+                        <p>Open: Wednesday through Saturday, 11:00 am through 8:00 pm</p>
+                    </div>
+                    
                     <div className="contact-image"></div>
 
                 </div>
