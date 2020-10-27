@@ -52,7 +52,7 @@
 }
 .hours {
     position: absolute;
-    top: 550px;
+    top: 530px;
     width: 100%;
     z-index: 2;
     padding: 10px;
@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    fontFamily: var(--font-alt);
+    font-family: var(--font-alt);
 }
 
     .contact-image-container span p {
