@@ -4,11 +4,11 @@
 }
 
 .header-img {
-    background: linear-gradient(0deg, black 15%, transparent 25%), linear-gradient(180deg, black 5%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%),url("../../media/images/delicious-chicken.png");
+    background: linear-gradient(0deg, black 0%, transparent 25%), linear-gradient(180deg, black 0%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%),url("../../media/images/delicious-chicken.png");
     background-position: 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 535px;
+    height: 540px;
     width: 100%;
     top:0px; 
     position: absolute;
