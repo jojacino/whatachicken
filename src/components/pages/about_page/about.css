@@ -22,7 +22,7 @@
 }
 
 .about-image-2 {
-    background: url(../../../media/images/chicken.jpg) no-repeat center;
+    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%), url(../../../media/images/chicken.jpg) no-repeat center;
     filter: saturate(1.05) brightness(0.85);
     background-size: contain;
     background-attachment: fixed;
@@ -34,7 +34,7 @@
 }
 
 .about-image-3 {
-    background: url(../../../media/images/familyplate01.jpg) no-repeat center;
+    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%), url(../../../media/images/familyplate01.jpg) no-repeat center;
     filter: saturate(1.05) brightness(0.85);
     background-size: contain;
     background-attachment: fixed;
@@ -46,7 +46,7 @@
 }
 
 .about-image-4 {
-    background: url(../../../media/images/familyplate03.jpg) no-repeat center;
+    background: linear-gradient(0deg, black 25%, transparent 30%), linear-gradient(180deg, black 10%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%), url(../../../media/images/familyplate03.jpg) no-repeat center;
     filter: saturate(1.05) brightness(0.85);
     background-size: contain;
     background-attachment: fixed;
