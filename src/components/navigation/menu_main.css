@@ -8,8 +8,8 @@
     background-position: 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
-    width: auto;
+    height: 535px;
+    width: 100%;
     top:0px; 
     position: absolute;
     z-index: -1;
