@@ -101,7 +101,7 @@ class Page extends Component {
                                     target="_blank"
                                     rel="noreferrer noopener"
                                     href="mailto:jojacino@gmail.com">
-                                        Sugar C☼ded 
+                                        Sugar Coded 
                                     <img
                                         alt="sugar coded web logo"
                                         className="logo"
