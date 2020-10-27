@@ -33,7 +33,7 @@ class AboutPage extends Component {
                     
                 </div>
                 <h2>Hours</h2>
-                <p>Open: Wednesday through Saturday, 11:00 am through 8:00 pm</p>
+                <p style={{fontFamily: var(--font-alt)}}>Open: Wednesday through Saturday, 11:00 am through 8:00 pm</p>
                     
                 {/** Invite Section **/}
                 <div className="about-invite">
