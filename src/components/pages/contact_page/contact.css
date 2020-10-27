@@ -6,6 +6,7 @@
     font-size: var(--size-smaller);
     padding: 60px 0;
     text-shadow: 0 0 2px #333;
+    min-height: 950px;
 }
 
 .contact-header {
