@@ -103,13 +103,13 @@ class MenuPage extends Component {
                     <div className="menu-section">
                         <h1>DRINKS</h1>
 
-                        <div className="menu-image drinks-img"></div>
-                        
                         <img
                             alt="delicious drinks artwork"
                             className="doodle" 
                             src="./media/images/doodle.png" />
 
+                        <div className="menu-image drinks-img"></div>
+                        
                         <h3 className="menu-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Large Agua Fresca<h2 className="price">$4.00</h2></h3>
 
                         <h3 className="menu-item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Medium Agua Fresca<h2 className="price">$3.00</h2></h3>

@@ -34,6 +34,7 @@
     max-width: 800px;
     height: 460px;
     margin: 35px auto 20px auto;
+    box-shadow: 0 5px 20px 0 black inset, 0 -5px 20px 0 black inset;
 }
 
 .home-header, .home-invite {
