@@ -47,7 +47,8 @@ class SocialPage extends Component {
                     <div className="social-image-1"></div>
 
                 </div>
-                <div className="social-image-container">
+                <div onClick={this.yelp}
+                     className="social-image-container">
 
                     <div onClick={this.yelp}>
                         Read and Post Reviews
