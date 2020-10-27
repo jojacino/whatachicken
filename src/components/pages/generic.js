@@ -181,7 +181,11 @@ class Page extends Component {
                                     target="_blank"
                                     rel="noreferrer noopener"
                                     href="mailto:jojacino@gmail.com">
-                                        Sugar C☼ded Web
+                                        Sugar C☼ded 
+                                    <img
+                                        alt="sugar coded web logo"
+                                        className="logo"
+                                        src="./media/images/logo.png" />eb
                                 </a>
                                 
                                 <div className="copyright">copyright &copy; 2020, all rights reserved</div>
