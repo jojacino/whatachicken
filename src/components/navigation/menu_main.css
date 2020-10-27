@@ -7,7 +7,7 @@
     background: linear-gradient(0deg, black 0%, transparent 25%), linear-gradient(180deg, black 0%, transparent 15%), linear-gradient(90deg, black 1%, transparent 5%), linear-gradient(270deg, black 1%, transparent 5%),url("../../media/images/delicious-chicken.png");
     background-position: 0%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 540px;
     width: 100%;
     top:0px; 
@@ -104,6 +104,9 @@
 @media only screen and (min-width: 500px) {
     .company {
         font-size: var(--size-huge);
+    }
+    .header-img {
+        background-size: cover;
     }
 }
 @media only screen and (min-width: 700px) {
