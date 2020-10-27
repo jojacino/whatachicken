@@ -28,7 +28,11 @@ class AboutPage extends Component {
                 <div className="about-image-container">
                     <h2>Our Location</h2>
                     <p>706 E Washington Street Petaluma <span></span> CA 94952</p>
+                    <h2>Hours</h2>
+                    <p>Open: Wednesday through Saturday, 11:00 am through 8:00 pm</p>
+                    
                     <div className="about-image-1"></div>
+                    
                 </div>
 
                 {/** Invite Section **/}
@@ -42,7 +46,7 @@ class AboutPage extends Component {
                         <h2>BBQ Plates!!</h2>
                         <div className="about-image-2"></div>
                     </div>
-
+                      
                     {/** Image Section **/}
                     <div className="about-image-container">
                         <h2>Burritos & Tacos!!</h2>
