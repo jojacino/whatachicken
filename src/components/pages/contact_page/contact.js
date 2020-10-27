@@ -52,7 +52,7 @@ class AboutPage extends Component {
                     
                     <div className="hours">
                         <h2>Hours</h2>
-                        <p>Open: Wednesday through Saturday, 11:00 am through 8:00 pm</p>
+                        <p>Open: Wednesday through Saturday, 11:00 am to 8:00 pm</p>
                     </div>
                     
                     <div className="contact-image"></div>
